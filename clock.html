@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <title>Digital Clock | assignment-2</title>
+    <style>
+        body{
+            background-color: rgb(44, 71, 221);
+        }
+        .twelveHrs{
+            height:100%;
+            padding-top: 100px;
+            text-align: center;
+            font-size: 50px;
+            color: white;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .twentyFourHrs{
+            height:100%;
+            padding-top: 100px;
+            text-align: center;
+            font-size: 50px;
+            color: white;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .button{
+            text-align: center;
+            padding: 100px;
+        }
+        #hrs,#am_pm{
+            text-align: center;
+            padding: 20px;
+            font-family:'orbitron', sans-serif;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="twelveHrs">
+           
+    </div>
+    <div class="twentyFourHrs">
+           
+    </div>
+    <div class="button">
+            <input onclick="displayTwelveHrs()" type="button" value="12 HRS" id="am_pm">
+            <input onclick="displayTwentyFourHrs()" type="button" value="24 HRS" id="hrs">
+    </div>
+
+    <script src="1.clock.js"></script>
+    
+</body>
+</html>
